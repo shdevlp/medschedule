@@ -111,11 +111,11 @@ public class TableFragment extends Fragment {
             final int iDurationSize = Integer.valueOf(durationSize);
             final int iDuration = Integer.valueOf(duration);
 
-            String text = new String("<html><body><table bordercolor=\"red\" border=\"1\" width=\"100%\">");
+            String text = new String("<html><body><table bordercolor=\"red\" border=\"1\" width=\"300%\">");
             text += "<tr><th rowspan=\"2\">Время</th><th colspan=\"" + durationSize + "\">Длительность процедуры</th></tr>";
             text += "<tr>";
             for (String dur: durations) {
-                text += String.format("<td>%s</td>", dur);
+                text += String.format("<td align=\"center\">%s</td>", dur);
             }
             text += "</tr>";
 
@@ -133,7 +133,7 @@ public class TableFragment extends Fragment {
 
             for (String h: hours) {
                 for (String m: minutes) {
-                    text += String.format("<tr><td>%s:%s</td>", h, m);
+                    text += String.format("<tr><td align=\"center\">%s:%s</td>", h, m);
 
                     for (i = 0; i < iDurationSize;) {
                         if (hour.endsWith(h) && minute.endsWith(m) && Integer.valueOf(durations[i]) <= iDuration) {

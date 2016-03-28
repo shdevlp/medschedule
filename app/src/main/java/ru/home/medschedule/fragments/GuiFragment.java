@@ -24,7 +24,7 @@ import ru.home.medschedule.event.ConfirmEvent;
 
 public class GuiFragment extends Fragment implements View.OnClickListener {
 
-    private static int DELAY = 3000;
+    private static int DELAY = 5000;
 
     private TextView tvFio;
     private TextView tvProcedure;
