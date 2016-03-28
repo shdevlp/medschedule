@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MedSchedule</string>
+
+    <string name="ui_fio">ФИО Пациента:</string>
+    <string name="ui_title">Запись на прием</string>
+    <string name="ui_procedure">Процедура:</string>
+    <string name="ui_time_begin">Начало приема:</string>
+    <string name="ui_time">Длительность приема:</string>
+    <string name="ui_hour">Час:</string>
+    <string name="ui_min">Мин:</string>
+    <string name="ui_go">Записать на прием</string>
+    <string name="ui_fio_not_spec">Фамилия не задана!</string>
+    <string name="ui_proc_not_spec">Процедура не указана!</string>
+    <string name="ui_warning">Предупреждение</string>
+    <string name="ui_ok">Ok</string>
+    <string name="ui_back">Назад</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
